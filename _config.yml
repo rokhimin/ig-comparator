@@ -1,9 +1,9 @@
 title: IG Comparator | whdzera
 email: whdzera@gmail.com
-baseurl: ""
+baseurl: "/ig-comparator"
 url: "" 
 twitter_username: whdzera
 github_username:  rokhimin/ig-comparator
 
 permalink: /:title.rb
-files: ""
+files: "/ig-comparator"
