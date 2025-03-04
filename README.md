@@ -3,9 +3,7 @@ Instagram following follower comparator | Jekyll
 
 User can identify accounts they follow but don't follow back
 
-## Live Demo
-
-Experience the application live at: 
+## Live
 
 https://rokhimin.github.io/ig-comparator
 
