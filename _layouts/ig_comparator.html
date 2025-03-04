@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="columns is-centered">
+    <div class="column is-half">
+        <div class="box">
+        <h3 class="title has-text-white">Instagram Following/Followers Comparator</h3>
+        <article class="message is-link">
+            <div class="message-header">
+              <p>how to get your following.html and followers.html <a href="/how-to-get-ig-html-files">Read here</a></p>
+              <button class="delete" aria-label="delete"></button>
+            </div>
+          </article>
+        <div class="box">
+            <label class="label">Upload Following HTML</label>
+            <input type="file" id="followingFile" class="input">
+        </div>
+        <div class="box">
+            <label class="label">Upload Followers HTML</label>
+            <input type="file" id="followersFile" class="input">
+        </div>
+        <div class="field">
+            <button class="button is-link" onclick="compareLists()">Compare</button>
+        </div>
+        <div class="box">
+            <h2 class="subtitle has-text-white">Not Following You Back</h2>
+            <textarea id="notFollowingBack" readonly></textarea>
+            <button class="button is-light copy-btn" onclick="copyToClipboard('notFollowingBack')">Copy</button>
+            <button class="button is-light copy-btn" onclick="downloadText('notFollowingBack', 'not_following_back.txt')">Download</button>
+        </div>
+        <div class="box">
+            <h2 class="subtitle has-text-white">You Don't Follow Back</h2>
+            <textarea id="notFollowedBack" readonly></textarea>
+            <button class="button is-light copy-btn" onclick="copyToClipboard('notFollowedBack')">Copy</button>
+            <button class="button is-light copy-btn" onclick="downloadText('notFollowedBack', 'not_followed_back.txt')">Download</button>
+        </div>
+    </div>
+</div>
+</div>
+<script src="{{ site.files }}/assets/ig_comparator.js"></script>
